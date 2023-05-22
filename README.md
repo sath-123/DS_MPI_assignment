@@ -1,4 +1,4 @@
-Q1)
+## Q1)
 code is written in c.
 Time complexity:((N*M)*K/size)
 here size=number of processors
@@ -22,7 +22,7 @@ performance : considered input as 30 30 10000
 11 Total time (s): 3.712265
 12 Total time (s): 3.909257
 
-Q2) code is written in c++.
+## Q2) code is written in c++.
 Time complexity : (K*T)/p,for ecah process
 
 space complexity: K+N*(M/p)+somemore ,here K is for storing the vector of k struct ,and N*(M/p) to store the counts of particles in each place ,and something is for storing the map values to finding collisons
@@ -40,7 +40,7 @@ performance : considered iput 100 120 16 1000
 11 Total time (s): 8.229354
 12 Total time (s): 8.525119
 
-Q3) code is written in c
+### Q3) code is written in c
 
 Time complexity : N*N*(N/p) approximately
 
