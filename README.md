@@ -9,10 +9,10 @@ space complexity: 2*N*M for root process,one is for input other is for storing c
 -> 2(N*M)/p for remaining procssese,one (N*M)/p is for storing values,and other for computed answers
 
 performance : considered input as 30 30 10000
-1 process Total time (s): 4.688960
-2 Total time (s): 3.311700
-3 Total time (s): 3.065280
-4 Total time (s): 2.926174
+* 1 process Total time (s): 4.688960
+* 2 Total time (s): 3.311700
+* 3 Total time (s): 3.065280
+* 4 Total time (s): 2.926174
 5 Total time (s): 2.316099
 6 Total time (s): 2.945268
 7 Total time (s): 2.972469
