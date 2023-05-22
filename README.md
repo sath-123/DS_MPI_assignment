@@ -1,4 +1,4 @@
-## Q1)
+## Q1) Mandelbrot Set
 code is written in c.
 Time complexity:((N*M)*K/size)
 here size=number of processors
@@ -22,7 +22,8 @@ performance : considered input as 30 30 10000
 11 Total time (s): 3.712265
 12 Total time (s): 3.909257
 
-## Q2) code is written in c++.
+## Q2) Tony Stark and Pym Particles
+code is written in c++.
 Time complexity : (K*T)/p,for ecah process
 
 space complexity: K+N*(M/p)+somemore ,here K is for storing the vector of k struct ,and N*(M/p) to store the counts of particles in each place ,and something is for storing the map values to finding collisons
@@ -40,8 +41,8 @@ performance : considered iput 100 120 16 1000
 11 Total time (s): 8.229354
 12 Total time (s): 8.525119
 
-### Q3) code is written in c
-
+### Q3) BST with the minimum expected search time
+code is written in c
 Time complexity : N*N*(N/p) approximately
 
 space complexity: 2*N*N + 2*N  for rroot process. one N*N is for storing cost values and other is for storing parent(x,y) and 2*N is for input. N*N + N is for child ,because N*N for storing cost(x,y) and N is storing the frequencies of keys.
