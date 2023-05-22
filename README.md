@@ -1,4 +1,4 @@
-## Q1) Mandelbrot Set
+## Q1) Mandelbrot set
 code is written in c.
 Time complexity:((N*M)*K/size)
 here size=number of processors
